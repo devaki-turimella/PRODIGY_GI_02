@@ -35,15 +35,7 @@ Stable Diffusion is a generative AI model that creates images from text by start
 
 ---
 
-## How to Run (Google Colab)
 
-1. Open [Google Colab](https://colab.research.google.com) and create a new notebook.
-2. Go to **Runtime → Change runtime type → Hardware accelerator → GPU (T4)**.
-3. Copy the code into a cell and run it.
-4. When prompted, type your text prompt (example: `"a cricket player hitting a six, stadium background, digital art"`).
-5. The generated image will be displayed and saved as `stable_diffusion_output.png`.
-
----
 
 ## Example Prompts
 
@@ -60,15 +52,6 @@ The generated image is:
 - Saved to the Colab working directory as `stable_diffusion_output.png`
 
 ---
-
-## Notes
-
-- Using a **GPU runtime** is recommended. On CPU, image generation is much slower.
-- The first run will take a few minutes since it downloads the model weights (~4 GB).
-- This model is used only for generating images and does not require any training.
-
 ---
 
-## Author
-
-B.Tech Student — Internship Task 2 (Generative AI / Image Generation)
+## Author - by Devaki
